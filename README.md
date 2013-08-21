@@ -39,7 +39,7 @@ License:
   02111-1307  USA                                                                                           
                                                                                                             
    All comments concerning this program package may be sent to the                                          
-   e-mail address 'jessu.cuenca@gmail.com'                                                                  
+   e-mail address 'jesus.cuenca@gmail.com'                                                                  
                                                                                                            
 **************************************************************************                                                                                                                                                     
 
