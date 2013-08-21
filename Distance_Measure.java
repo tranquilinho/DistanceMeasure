@@ -546,6 +546,7 @@ public class Distance_Measure extends PlugInFrame {
 	 * @param pixelToMicronFactor conversion factor (from pixel to micron)
 	 * @return distances in microns
 	 * @throws OutOfMemoryError
+	 * @author CO Sanchez Sorzano
 	 */
 	private double [] measure(ImagePlus green, ImagePlus red, double pixelToMicronFactor,boolean fast)throws OutOfMemoryError,NoSuchElementException {
 		double progress = 0.0;
