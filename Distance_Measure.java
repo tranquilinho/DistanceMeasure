@@ -133,7 +133,7 @@ public class Distance_Measure extends PlugInFrame {
 		} catch (NoClassDefFoundError ex) {
 			IJ.error(
 					"Problem opening plugin",
-					"This plugin needs LOCI tools, Apache POI and RangeSlider plugins, please verify they are installed");
+					"This plugin depends on some other plugins listed in the Requirements of README, please check they are installed");
 			ex.printStackTrace();
 			destroyGui();
 		}

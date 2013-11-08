@@ -1,34 +1,35 @@
-DistanceMeasure - an ImageJ plugin for measuring the distance between regions.
-Specially useful for tracking the movement of cells.
+DistanceMeasure - an ImageJ plugin for measuring distances in fluorescence confocal microscopy.
+===============================================================================================
 
-== Features ==
+With this plugin, you can measure the distance between two 3D fluorescence distributions.
+
+Features
+--------
 
 - LIF file support (experiment series of multichannel stacks)
 - export results to Microsoft Excel
 - manual refinement of thresholds
 - display each channel histogram
 
-== Requirements ==
+Installation and requirements
+-----------------------------
+
+Download the required jar files to your ImageJ plugins dir:
+
+- [Distance_Measure.jar](https://github.com/tranquilinho/DistanceMeasure/raw/master/jar/Distance_Measure.jar)
+- [loci_tools.jar](http://downloads.openmicroscopy.org/bio-formats/4.3.2/loci_tools.jar) from [BioFormats site](http://loci.wisc.edu/bio-formats/downloads)
+- [poi.jar](http://archive.apache.org/dist/poi/release/bin/poi-bin-3.8-20120326.zip) from [Apache POI](http://poi.apache.org/download.html) (unzip and copy the poi.jar inside)
+- [forms-1.3.0.jar](http://www.jgoodies.com/download/libraries/forms/forms-1_3_0.zip) (unzip and copy the forms-1.3.0.jar inside) 
+- [file.jar](https://github.com/tranquilinho/JavaGuiComponents/raw/master/jar/file.jar) and [slider.jar](https://github.com/tranquilinho/JavaGuiComponents/raw/master/jar/slider.jar) from [Java GUI Components](https://github.com/tranquilinho/JavaGuiComponents)
+
+Other requirements:
 
 - ImageJ 1.45 or newer
 - Java 1.7 or newer
-- loci_tools.jar: BioFormats site (http://loci.wisc.edu/bio-formats/downloads)
-- poi.jar: Apache POI (http://poi.apache.org/download.html). Tested with version 3.8.
-- forms-1.3.0.jar: JGoodies Forms (http://www.jgoodies.com/downloads/libraries)
-- file.jar and slider.jar: Java GUI Components (https://github.com/tranquilinho/JavaGuiComponents)
-
-== Installation ==
-
-Download all the required jar files to your ImageJ plugins dir:
-- Distance_Measure.jar
-- loci_tools.jar: BioFormats site (http://loci.wisc.edu/bio-formats/downloads)
-- poi.jar: Apache POI (http://poi.apache.org/download.html). Tested with version 3.8.
-- [forms-1.3.0.jar](http://www.jgoodies.com/download/libraries/forms/forms-1_3_0.zip) (unzip and copy the forms-1.3.0.jar inside) 
-- file.jar and slider.jar: Java GUI Components (https://github.com/tranquilinho/JavaGuiComponents)
-
   
 
-== Tutorial ==
+Tutorial
+--------
 
 The workflow is pretty straighforward: proceed from top to bottom of the window. That is,
 
@@ -50,7 +51,8 @@ so we may think of it as a 5D image (S Series/experiments x 4 channels x N slice
 
 Contact: jesus.cuenca@gmail.com
 
-== License ==
+License
+-------
                                                                                                             
   Authors:
 	Jesus Cuenca-Alba (jesus.cuenca@gmail.com)
