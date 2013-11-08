@@ -19,7 +19,7 @@ Download the required jar files to your ImageJ plugins dir:
 - [Distance_Measure.jar](https://github.com/tranquilinho/DistanceMeasure/raw/master/jar/Distance_Measure.jar)
 - [loci_tools.jar](http://downloads.openmicroscopy.org/bio-formats/4.3.2/loci_tools.jar) from [BioFormats site](http://loci.wisc.edu/bio-formats/downloads)
 - [poi.jar](http://archive.apache.org/dist/poi/release/bin/poi-bin-3.8-20120326.zip) from [Apache POI](http://poi.apache.org/download.html) (unzip and copy the poi.jar inside)
-- [forms-1.3.0.jar](http://www.jgoodies.com/download/libraries/forms/forms-1_3_0.zip) (unzip and copy the forms-1.3.0.jar inside) 
+- [forms-1.3.0.jar](http://www.jgoodies.com/download/libraries/forms/forms-1_3_0.zip) from [JGoodies](http://www.jgoodies.com/downloads/archive/) (unzip and copy the forms-1.3.0.jar inside) 
 - [file.jar](https://github.com/tranquilinho/JavaGuiComponents/raw/master/jar/file.jar) and [slider.jar](https://github.com/tranquilinho/JavaGuiComponents/raw/master/jar/slider.jar) from [Java GUI Components](https://github.com/tranquilinho/JavaGuiComponents)
 
 Other requirements:
