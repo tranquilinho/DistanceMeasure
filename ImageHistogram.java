@@ -1,5 +1,4 @@
 import ij.ImagePlus;
-import ij.process.AutoThresholder;
 import ij.process.ImageProcessor;
 import ij.process.ImageStatistics;
 

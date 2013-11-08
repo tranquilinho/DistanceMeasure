@@ -40,7 +40,7 @@ public class About_Distance_Measure extends PlugInFrame {
                 + "Instruct Image Processing Center.<br>"
                 + "Biocomputing Unit.<br>"
                 + "National Center for Biotechnology (CNB/CSIC).<br>"
-                + "Madrid. May 2012.</html>");
+                + "Madrid. Version 1.0.</html>");
         jspText.setViewportView(jtpAbout);
 
         if(jlIcon != null)

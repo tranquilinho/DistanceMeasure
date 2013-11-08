@@ -56,7 +56,6 @@ public class ThresholdChangeListener implements ChangeListener, AdjustmentListen
 		if(updateThreshold(event))
 			setThresholdForCurrentChannel(getLowThreshold(), getHighThreshold());
 	}
-		// System.err.println("Red low"+((JSlider)arg0.getSource()).getValue());
 	
 	private JSlider getSlider(ChangeEvent event){
 		return (JSlider)event.getSource();
@@ -117,7 +116,6 @@ public class ThresholdChangeListener implements ChangeListener, AdjustmentListen
 				}
 					
 			}
-			// System.err.println("Channel (this/current):" + getChannel() + "/" + currentChannel + ", high:" + high + ", low:" + low);
 		}
 	}
 	
