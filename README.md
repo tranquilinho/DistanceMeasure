@@ -23,7 +23,7 @@ Download all the required jar files to your ImageJ plugins dir:
 - Distance_Measure.jar
 - loci_tools.jar: BioFormats site (http://loci.wisc.edu/bio-formats/downloads)
 - poi.jar: Apache POI (http://poi.apache.org/download.html). Tested with version 3.8.
-- (http://www.jgoodies.com/download/libraries/forms/forms-1_3_0.zip forms-1.3.0.jar) (unzip and copy the forms-1.3.0.jar inside) 
+- [forms-1.3.0.jar](http://www.jgoodies.com/download/libraries/forms/forms-1_3_0.zip) (unzip and copy the forms-1.3.0.jar inside) 
 - file.jar and slider.jar: Java GUI Components (https://github.com/tranquilinho/JavaGuiComponents)
 
   
